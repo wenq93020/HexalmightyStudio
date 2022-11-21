@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ElderlyGPS</title>
+    <link rel="stylesheet" type="text/css" href="../navCSS.css">
+    <style>
+        body{
+            background: #edc0bf;
+            background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+        }
+
+        .body{
+            margin: 0 50px;
+            padding: 25px;
+            background: rgba(255, 255, 255, .5);
+            /*-webkit-backdrop-filter: blur(10px);*/
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+        }
+
+        .title{
+            margin: 50px;
+        }
+
+        .content{
+            padding: 0 0 50px 0;
+            line-height: 28px;
+
+        }
+
+        .download{
+            background: cadetblue;
+            width: 10%;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <ul class="nav">
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="../blogPage.html">文章</a></li>
+        <li><a href="../projectPage.html">项目</a></li>
+        <li><a href="../aboutPage.html">关于</a></li>
+    </ul>
+</div>
+
+    <h1 class="title">长者定位系统</h1>
+<div class="body">
+    <p class="content">
+        目的: 让长者家属知道长者的具体位置 <br>
+        立项原因: 学校组织的社会服务——为长者提供服务解决他们的问题 <br>
+        项目版本: V0.07
+        原本的设计是分为长者端和长者家属端, 长者端对位置进行实时监测并上传至服务器, 长者家属端接收服务器数据, 实时定位长者的位置。但因为怕涉及隐私问题(技术力不够), 改为长者自己知道自己所在的位置
+        , 当家属询问时不会不知道自己的位置。 <br>
+        此项目已开源(<a href="https://github.com/wenq93020/ElderlyGPS" style="text-decoration: none;">https://github.com/wenq93020/ElderlyGPS</a>), 项目为经常不知道自己位置的长者设计, 软件内可以看到自己的大体位置，点击查看具体位置会重定向到GoogleMap进行查看,
+        内置有音乐播放器, 自带歌曲及录音故事12首。<br>
+
+    </p>
+    <a href="下载地址.txt" download="下载地址.txt" class="download">下载</a>
+
+</div>
+
+</body>
+</html>

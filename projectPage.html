@@ -2,8 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>小白的项目</title>
+    <title>项目列表</title>
     <link rel="stylesheet" type="text/css" href="navCSS.css">
+
+    <style>
+        body{
+            background: #edc0bf;
+            background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+        }
+
+        .cards .elderlyGPSProject{
+            width: 323.6px;
+            height: 200px;
+            /*background: rgba(128, 128, 128, .7);*/
+            background: rgba(255, 255, 255, .5);
+            /*-webkit-backdrop-filter: blur(10px);*/
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            display: block;
+            margin: 15px;
+            text-decoration: none;
+
+        }
+
+        .elderlyGPSProjectTitle{
+            text-align: center;
+            font-size: 23px;
+            color: black;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .elderlyGPSProjectContent{
+            color: black;
+            padding: 0 20px;
+
+        }
+
+    </style>
 
 </head>
 <body>
@@ -15,5 +51,18 @@
         <li><a href="aboutPage.html">关于</a></li>
     </ul>
 </div>
+
+<div class="cards">
+
+    <a href="Projects/ElderlyGPS.html" class="elderlyGPSProject">
+        <p class="elderlyGPSProjectTitle">长者定位系统(ElderlyGPS)</p>
+        <p class="elderlyGPSProjectContent">
+            简介: 让长者可以知道自己所在位置，内置音乐播放器 <br><br>
+            用途: 学校项目
+        </p>
+    </a>
+
+</div>
+
 </body>
 </html>
